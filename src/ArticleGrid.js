@@ -6,7 +6,7 @@ function ArticleGrid(data) {
       {
         // const thumbnailUrl = x?.multimedia.find(y => y.subtype==='thumbnail')?.url;
         return  (<div key={x.web_url + 'headline'}>
-          <a href={x.web_url}>{x.headline.main}</a>
+          <a href={x.web}>{x.headline.main}</a>
           {/* <Box
                   component="img"
                   sx={{
